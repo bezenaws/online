@@ -9,7 +9,7 @@
 				<div style="height: 60px;" class="hidden-print"></div>
 				<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 					<p class="navbar-text"><small>
-						Test Jenkins.
+						DevOps Tranning.
 					</small></p>
 				</nav>
 			<?php } ?>
