@@ -1,7 +1,7 @@
 <?php
 	$currDir = dirname(__FILE__);
 	require("{$currDir}/incCommon.php");
-	$GLOBALS['page_title'] = $Translation['membership management homepage'];
+	$GLOBALS['page_title'] = $Translation['DevOps Dashboard'];
 	include("{$currDir}/incHeader.php");
 ?>
 
