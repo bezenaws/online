@@ -1,7 +1,7 @@
 <?php
 	$currDir = dirname(__FILE__);
 	require("{$currDir}/incCommon.php");
-	$GLOBALS['page_title'] = $Translation['DevOps Dashboard'];
+	$GLOBALS['page_title'] = $Translation['membership management homepage'];
 	include("{$currDir}/incHeader.php");
 ?>
 
@@ -36,7 +36,7 @@
 	}
 ?>
 
-<div class="page-header"><h1><?php echo $Translation['membership management homepage']; ?></h1></div>
+<div class="page-header"><h1><?php echo $Translation['DevOps Dashboard']; ?></h1></div>
 
 <?php if(!$adminConfig['hide_twitter_feed']) { ?>
 	<div class="row" id="outer-row"><div class="col-md-8">
