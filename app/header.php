@@ -11,7 +11,7 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>This is simple WebApp to pratice DevOps | <?php echo (isset($x->TableTitle) ? $x->TableTitle : ''); ?></title>
+		<title>WebApp to pratice DevOps | <?php echo (isset($x->TableTitle) ? $x->TableTitle : ''); ?></title>
 		<link id="browser_favicon" rel="shortcut icon" href="<?php echo PREPEND_PATH; ?>resources/images/appgini-icon.png">
 
 		<link rel="stylesheet" href="<?php echo PREPEND_PATH; ?>resources/initializr/css/bootstrap.css">
