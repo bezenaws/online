@@ -1,7 +1,7 @@
 			<!-- Add footer template above here -->
 			<div class="clearfix"></div>
 			<?php if(!$_REQUEST['Embedded']) { ?>
-				<div style="height: 70px;" class="hidden-print"></div>
+				<div style="height: 700px;" class="hidden-print"></div>
 			<?php } ?>
 
 			<?php if(!$_REQUEST['Embedded']) { ?>
@@ -9,7 +9,7 @@
 				<div style="height: 60px;" class="hidden-print"></div>
 				<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 					<p class="navbar-text"><small>
-						Powered by <a class="navbar-link" href="https://bigprof.com/appgini/" target="_blank">BigProf AppGini 5.81</a>
+						This is a status bar.
 					</small></p>
 				</nav>
 			<?php } ?>
