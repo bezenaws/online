@@ -10,10 +10,3 @@
 			'table_group' => 0, // optional index of table group, default is 0
 		);
 	*/
-	$navLinks[] = array(
-		'url' => 'http://google.com', 
-		'title' => 'Go to Google.com', 
-		'groups' => array('group1', 'group2'), // groups allowed to see this link, use '*' if you want to show the link to all groups
-		'icon' => 'path/to/icon',
-		'table_group' => 0, // optional index of table group, default is 0)
-	);
