@@ -315,7 +315,7 @@
 
 			$d = dir($dir);
 			while(false !== ($entry = $d->read())) {
-				if(preg_match('/\.csv$/i', $entry)) $csv_files[] = urldecode($entry);
+				/**if(preg_match('/\.csv$/i', $entry)) $csv_files[] = urldecode($entry);**/
 			}
 			$d->close();
 			return $csv_files;
