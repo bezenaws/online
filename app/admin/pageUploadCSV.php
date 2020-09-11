@@ -308,7 +308,7 @@
 			echo json_encode(array('deleted' => $deleted));
 		}
 
-		private function csv_files($dir) {
+		/**private function csv_files($dir) {
 			$csv_files = array();
 
 			if(!is_dir($dir)) @mkdir($dir);
@@ -319,7 +319,7 @@
 			}
 			$d->close();
 			return $csv_files;
-		}
+		}**/
 
 		/**
 		  * function to handle csv file upload request by validating and saving into the csv folder 
